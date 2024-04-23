@@ -1,0 +1,294 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.hero{
+	background-image: url("./zebra\ banner\ 2\ 1.png");height: 150vh;
+	
+}
+ .navbar-brand{color: dark orangered;}		
+.hero h1{color: white;font-size: 250px;margin: bottom 150px; ;text-align: center;align-items: center;
+	justify-content: center;justify-content: center;}
+
+.container2{height: 150vh;display: flex; flex-direction: row;align-items: center;align-content: center;
+	justify-content: center;align-content: space-evenly;justify-content: space-evenly;
+ }
+
+.container2 h2{font-family: Arial, Helvetica, sans-serif;color: black;
+	font-size :50px;position: absolute ;margin-bottom: 650px;margin-right: 1000px;}
+
+.container2  #p{font-size: 20px;font-family: Arial, Helvetica, sans-serif;display: flex;
+	flex-direction: column;align-content: space-evenly;justify-content: space-evenly;justify-content: space-between;  }
+
+.p p{font-size: 50px;padding: 10px;}
+.img{height: 30px;}	
+
+
+.container2 button{background-color: orangered;position: absolute;margin-top: 600px;
+	margin-right: 850px;padding-bottom: 10px;
+padding-top: 10px;padding-left: 10px;padding-right: 10px;}
+ 
+.container3{height: 150vh;display: flex;flex-direction: row;align-items: center;
+	align-content: center;justify-content: center;}
+
+.container3 h2{font-size: 40px; color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;margin-bottom: 800px; margin-right: 1000px; }
+	
+.container3 img{font: size 30px; ;}	
+
+
+.container4{height:150vh ;display: flex;flex-direction: row;align-items: center;justify-content: center;}
+
+.container4 h2{font-size: 40px; color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;margin-bottom: 800px; margin-right: 1000px; }
+
+.container4  p{font-size: 20px; color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;margin-bottom: 780px; margin-right: 950px;}
+	
+.container5{  height:150vh ;display: flex;flex-direction: row;align-items: center;justify-content: center;    }	
+
+.container5 h2{font-size: 40px; color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;margin-bottom: 800px; margin-right: 1000px; }
+
+.container6	{ height:100vh ;display: flex;flex-direction: row;align-items: center;justify-content: center;    }
+ .bg{background-color: orangered;height: 50vh;width: 40vh;display: flex;flex-direction: row;align-items: center;justify-content: center;
+	align-content: space-between;justify-content: space-between; }.bg h3{color: white; padding: 5px;}	
+.container6 h2{font-size: 40px; color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;margin-bottom: 800px; margin-right: 1000px; }
+
+.container7	{  height:100vh ;display: flex;flex-direction: row;align-items: center;justify-content: center;align-content: space-between;justify-content: space-between; margin-bottom: 3px;    }	
+.container7 h2{font-size: 40px; color: rgb(0, 0, 0);
+		font-family: Arial, Helvetica, sans-serif;
+		position: absolute;margin-bottom: 800px; margin-right: 1000px; }
+	
+
+.container8	{height: 2px;display: flex;flex-direction: row;align-items: center;justify-content: center;margin-bottom: 50vh;  align-content: space-between;justify-content: space-between;margin-top: 3px;   }	
+
+.illustrator {background-color: orangered;height: 40vh; ;display: flex;
+	flex-direction: row;align-items: center;justify-content: center;justify-content: center;color: white;}
+.div1{position: absolute;margin-bottom: 15vh; margin-right: 210vh;}
+	.div1 h3{font-size: 30px;padding: 3px; }
+    .div1 h4{font-size: 15px;padding: 3px; font-family: Arial, Helvetica, sans-serif;}
+
+.div2{position: absolute;margin-bottom: 20vh; margin-right: 40%;}
+    .div2 h3{font-size: 30px; }
+	.div2 h4{font-size: 15px;padding: 5px;font-family: Arial, Helvetica, sans-serif; }
+
+.div3{position: absolute;margin-bottom: 20vh; margin-left: 45vh;}
+     .div3 h3{font-size: 30px; }
+ .div3 h4{font-size: 15px;padding: 10px;font-family: Arial, Helvetica, sans-serif; }
+
+.div4{position: absolute;margin-bottom: 20vh; margin-left: 150vh;}
+	.div4 h3{font-size: 30px; }
+	.div4 h4{font-size: 60px;padding: 10px;font-family: Arial, Helvetica, sans-serif; }
+.form{width: 200px; align-items: center;justify-content: center;position: absolute;margin-left: 150vh;}
+	
+.copyright{position: absolute;margin-bottom: -30vh;text-align: center; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 568px) {  
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+.hero{
+	background-image: url("./zebra\ banner\ 2\ 1.png");height: 150vh; 
+	
+}
+ .navbar-brand{color: dark orangered;}		
+.hero h1{color: white;font-size: 250px;margin: bottom 150px; ;text-align: center;align-items: center;justify-content: center;justify-content: center;}
+
+.container2{height: 150vh;display: flex; flex-direction: row;align-items: center;align-content: center;
+	justify-content: center;align-content: space-evenly;justify-content: space-evenly;
+ }
+
+.container2 h2{font-family: Arial, Helvetica, sans-serif;color: black;
+	font-size :50px;position: absolute ;margin-bottom: 650px;margin-right: 1000px;}
+
+.container2  #p{font-size: 20px;font-family: Arial, Helvetica, sans-serif;display: flex;
+	flex-direction: column;align-content: space-evenly;justify-content: space-evenly;justify-content: space-between;  }
+
+.p p{font-size: 50px;padding: 10px;}
+.img{height: 30px;}	
+
+
+.container2 button{background-color: orangered;position: absolute;margin-top: 600px;
+	margin-right: 850px;padding-bottom: 10px;
+padding-top: 10px;padding-left: 10px;padding-right: 10px;}
+ 
+.container3{height: 150vh;display: flex;flex-direction: row;align-items: center;
+	align-content: center;justify-content: center;}
+
+.container3 h2{font-size: 40px; color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;margin-bottom: 800px; margin-right: 1000px; }
+	
+.container3 img{font: size 30px; ;}	
+
+
+.container4{height:150vh ;display: flex;flex-direction: row;align-items: center;justify-content: center;}
+
+.container4 h2{font-size: 40px; color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;margin-bottom: 800px; margin-right: 1000px; }
+
+.container4  p{font-size: 20px; color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;margin-bottom: 780px; margin-right: 950px;}
+	
+.container5{  height:150vh ;display: flex;flex-direction: row;align-items: center;justify-content: center;    }	
+
+.container5 h2{font-size: 40px; color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;margin-bottom: 800px; margin-right: 1000px; }
+
+.container6	{  height:150vh ;display: flex;flex-direction: row;align-items: center;justify-content: center;    }	
+.container6 h2{font-size: 40px; color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;margin-bottom: 800px; margin-right: 1000px; }
+
+.container7	{  height:100vh ;display: flex;flex-direction: row;align-items: center;justify-content: center;align-content: space-between;justify-content: space-between; margin-bottom: 3px;    }	
+.container7 h2{font-size: 40px; color: rgb(0, 0, 0);
+		font-family: Arial, Helvetica, sans-serif;
+		position: absolute;margin-bottom: 800px; margin-right: 1000px; }
+	
+
+.container8	{height: 2px;display: flex;flex-direction: row;align-items: center;justify-content: center;margin-bottom: 50vh;  align-content: space-between;justify-content: space-between;margin-top: 3px;   }	
+
+.illustrator {background-color: orangered;height: 50vh; ;display: flex;
+	flex-direction: row;align-items: center;justify-content: center;justify-content: center;color: white;}
+.div1{position: absolute;margin-bottom: 15vh; margin-right: 210vh;}
+	.div1 h3{font-size: 30px;padding: 3px; }
+    .div1 h4{font-size: 15px;padding: 3px; font-family: Arial, Helvetica, sans-serif;}
+
+.div2{position: absolute;margin-bottom: 15vh; margin-right: 40%;}
+    .div2 h3{font-size: 30px; }
+	.div2 h4{font-size: 15px;padding: 3px;font-family: Arial, Helvetica, sans-serif; }
+
+.div3{position: absolute;margin-bottom: 15vh; margin-left: 45vh;}
+     .div3 h3{font-size: 30px; }
+ .div3 h4{font-size: 15px;padding: 5px;font-family: Arial, Helvetica, sans-serif; }
+
+.div4{position: absolute;margin-bottom: 15vh; margin-left: 150vh;}
+	.div4 h3{font-size: 30px; }
+	.div4 h4{font-size: 60px;padding: 5px;font-family: Arial, Helvetica, sans-serif; }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+}
